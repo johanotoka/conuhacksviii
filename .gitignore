@@ -1,0 +1,32 @@
+# Node.js
+node_modules/
+
+# Build artifacts
+build/
+dist/
+
+# Dependency directories
+pnpjs/
+
+# Environment variables
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Editor directories and files
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Log files
+*.log
+
+# Compiled files
+*.log
+*.bak
+
+# Cache directories
+.cache/
