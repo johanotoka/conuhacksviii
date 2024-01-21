@@ -10,9 +10,9 @@
 
 ## Installation
 
-https://github.com/johanotoka/conuhacksviii
-cd conuhacksviii
-npm install
+- git clone https://github.com/johanotoka/conuhacksviii
+- cd conuhacksviii
+- npm install
 
 ## Contributing
 
