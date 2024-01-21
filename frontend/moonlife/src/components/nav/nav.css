@@ -33,7 +33,8 @@ nav {
     margin: auto;
     padding: 0.5rem;
     display: flex;
-    color: var(--color-font);
+    color: var(--color-secondary);
+    font-weight: 500;
     font-size: 1.1rem;
 }
 

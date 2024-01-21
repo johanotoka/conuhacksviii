@@ -11,7 +11,7 @@
 
 :root {
   --color-bg: #fff;
-  --color-bg-variant: #3d4142;
+  --color-bg-variant: #c4e4ec;
   --color-font: #000;
   --color-primary: #ffcb05;
   --color-secondary: #184a58;
@@ -101,7 +101,7 @@ a:hover {
 }
 
 .btn:hover {
-  background-color: var(--color-white);
+  background-color: var(--color-secondary);
   color: var(--color-bg);
   border-color: transparent;
 }
@@ -139,4 +139,14 @@ img {
   section>h2 {
     margin-top: 2rem;
   }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
 }

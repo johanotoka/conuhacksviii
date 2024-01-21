@@ -21,9 +21,10 @@ const InflationCalculator = () => {
 
       <div>
         <label>
-          Initial Amount: $
           <input
             type="number"
+            placeholder='Initial Amount $'
+            className='calculator-input'
             value={initialAmount}
             onChange={(e) => setInitialAmount(e.target.value)}
           />
@@ -32,9 +33,10 @@ const InflationCalculator = () => {
 
       <div>
         <label>
-          Annual Inflation Rate: %
           <input
             type="number"
+            placeholder='Annual Inflation Rate %'
+            className='calculator-input'
             value={inflationRate}
             onChange={(e) => setInflationRate(e.target.value)}
           />
@@ -43,16 +45,17 @@ const InflationCalculator = () => {
 
       <div>
         <label>
-          Years:
           <input
             type="number"
+            placeholder='Years'
+            className='calculator-input'
             value={years}
             onChange={(e) => setYears(e.target.value)}
           />
         </label>
       </div>
 
-      <button onClick={calculateFutureValue}>Calculate</button>
+      <button className='btn' onClick={calculateFutureValue}>Calculate</button>
 
       {futureValue !== null && (
         <div>

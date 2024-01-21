@@ -1,13 +1,36 @@
 .inflation-calculator-container {
     text-align: center;
     margin: auto;
+    margin-bottom: 2rem;
     max-width: 800px;
     padding: 20px;
     border: 1px solid var(--color-primary);
+    background-color: var(--color-bg-variant);
     color: var(--color-font);
     border-radius: 5px;
 }
 
 .calculator-name {
     color: var(--color-secondary);
+}
+
+.calculator-input {
+    background: var(--color-bg);
+    padding: 1.2rem;
+    border: 1px solid transparent;
+    border-radius: 1.2rem;
+    margin: 1rem 0;
+    width: 24rem;
+    transition: var(--transition);
+}
+
+.btn {
+    background: var(--color-primary);
+    color: var(--color-font);
+    padding: 1.2rem;
+    border: 1px solid transparent;
+    border-radius: 1.2rem;
+    margin: 1rem 0;
+    width: 24rem;
+    transition: var(--transition);
 }
