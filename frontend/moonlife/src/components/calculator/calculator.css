@@ -1,0 +1,13 @@
+.inflation-calculator-container {
+    text-align: center;
+    margin: auto;
+    max-width: 800px;
+    padding: 20px;
+    border: 1px solid var(--color-primary);
+    color: var(--color-font);
+    border-radius: 5px;
+}
+
+.calculator-name {
+    color: var(--color-secondary);
+}

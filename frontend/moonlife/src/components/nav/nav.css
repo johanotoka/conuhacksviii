@@ -1,0 +1,48 @@
+nav {
+    width: 100%;
+    display: block;
+    margin: auto;
+    bottom: 2rem;
+    gap: 1rem;
+}
+
+.yellow-stripe {
+    background: var(--color-primary);
+    height: 8px;
+    padding: 0;
+}
+
+.logo {
+    height: 36px;
+    width: 149px;
+}
+
+.links {
+    background: var(--color-bg);
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding: 1rem 2rem;
+    bottom: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.links a {
+    background: transparent;
+    margin: auto;
+    padding: 0.5rem;
+    display: flex;
+    color: var(--color-font);
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    background: rgba(252, 221, 49, 0.3);
+}
+
+nav a.active {
+    background: var(--color-primary);
+    color: var(--color-bg);
+}
+
